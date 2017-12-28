@@ -5,7 +5,8 @@
       "$w.ValidatableMixin",
       "$w.RequiredMixin" ],
   "labels":
-    [ "new" ],
+    [ "new",
+      "changed" ],
   "location":
     { "filename": "FormElement.es6",
       "lineno": 10 },
@@ -50,13 +51,18 @@
                     [ "$w(\"#myElement\").value = 42;" ] } ] } } ],
   "operations":
     [ { "name": "onChange",
-        "labels": [],
+        "labels":
+          [ "changed" ],
         "nameParams": [],
         "params":
           [ { "name": "handler",
               "type": "$w.EventHandler",
               "doc": "The name of the function or\n the function expression to run when the element's value changes.",
-              "srcDoc": "The name of the function or\n the function expression to run when the element's value changes." } ],
+              "srcDoc": "The name of the function or\n the function expression to run when the element's value changes." },
+            { "name": "x",
+              "type": "string",
+              "doc": "ba bla bla\n the function expression to run when the element's value changes.",
+              "srcDoc": "ba bla bla\n the function expression to run when the element's value changes." } ],
         "ret":
           { "type": "$w.Element",
             "doc": "The element on which the event is now registered.",
