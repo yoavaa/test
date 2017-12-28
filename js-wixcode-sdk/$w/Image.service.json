@@ -6,7 +6,8 @@
       "$w.LinkableMixin",
       "$w.ClickableMixin" ],
   "labels":
-    [ "new" ],
+    [ "new",
+      "changed" ],
   "location":
     { "filename": "Image.es6",
       "lineno": 12 },
@@ -64,7 +65,8 @@
                   "body":
                     [ "$w(\"#myImage\").alt = \"Alt text\";" ] } ] } },
       { "name": "src",
-        "labels": [],
+        "labels":
+          [ "changed" ],
         "get": true,
         "set": false,
         "type": "string",
@@ -112,7 +114,9 @@
                 "",
                 " The URL formats supported are:",
                 " + Images from the Media Manager: `image://<filename>`",
-                " + Images from the web: `http(s)://<image url>`" ],
+                " + Images from the web: `http(s)://<image url>`",
+                "",
+                "a new line in the description" ],
             "links": [],
             "examples":
               [ { "title": "Get the image's location",
