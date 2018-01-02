@@ -6,7 +6,8 @@
       "$w.LinkableMixin",
       "$w.ClickableMixin" ],
   "labels":
-    [ "new" ],
+    [ "new",
+      "changed" ],
   "location":
     { "filename": "Shape.es6",
       "lineno": 7 },
@@ -15,7 +16,7 @@
       "links": [],
       "examples": [] },
   "srcDocs":
-    { "summary": "A simple shape.",
+    { "summary": "A simple shape. dsdfsfddfssef",
       "links": [],
       "examples": [] },
   "properties": [],
