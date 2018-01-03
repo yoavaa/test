@@ -69,7 +69,7 @@
           [ "changed" ],
         "get": true,
         "set": false,
-        "type": "string",
+        "type": "number",
         "locations":
           [ { "filename": "Image.es6",
               "lineno": 122 } ],
