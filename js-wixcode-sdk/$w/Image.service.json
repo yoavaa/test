@@ -104,7 +104,7 @@
           { "summary": "Sets or gets the file location of the image.",
             "description":
               [ "Setting the `src` property changes the displayed image to",
-                " the image found at the new `src` value.",
+                " the image found at the new `src` value. dfdfgdfgdf",
                 "",
                 " Getting the `src` property returns the location of the",
                 " current image file.",
