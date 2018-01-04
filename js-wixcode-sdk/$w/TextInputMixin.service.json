@@ -173,7 +173,7 @@
                       "  let meta = event.metaKey;             // false",
                       "  let alt = event.altKey;               // false",
                       "  let ctrl = event.ctrlKey;             // false",
-                      "  let value = event.newValue; // \"SEA\"",
+                      "  let value = event.newValue;           // \"SEA\"",
                       "} );" ] } ] } } ],
   "callbacks": [],
   "messages": [] }

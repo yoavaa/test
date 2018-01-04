@@ -7,7 +7,7 @@
     [ "new" ],
   "location":
     { "filename": "Repeater.es6",
-      "lineno": 77 },
+      "lineno": 106 },
   "docs":
     { "summary": "A repeating layout.",
       "links": [],
@@ -27,7 +27,7 @@
               [ "Object" ] },
         "locations":
           [ { "filename": "Repeater.es6",
-              "lineno": 240 } ],
+              "lineno": 269 } ],
         "docs":
           { "summary": "Sets or gets the repeater data.",
             "description":
@@ -509,7 +509,7 @@
           { "type": "void" },
         "locations":
           [ { "filename": "Repeater.es6",
-              "lineno": 496 } ],
+              "lineno": 527 } ],
         "docs":
           { "summary": "Runs a function for each repeated item.",
             "description":
@@ -600,7 +600,7 @@
           { "type": "void" },
         "locations":
           [ { "filename": "Repeater.es6",
-              "lineno": 541 } ],
+              "lineno": 572 } ],
         "docs":
           { "summary": "Runs a function for each repeated item with the given IDs.",
             "description":
@@ -677,7 +677,7 @@
             "srcDoc": "The element on which the event is now registered." },
         "locations":
           [ { "filename": "Repeater.es6",
-              "lineno": 380 } ],
+              "lineno": 411 } ],
         "docs":
           { "summary": "Sets the function that runs when a new repeated item is created.",
             "description":
@@ -790,7 +790,7 @@
             "srcDoc": "The element on which the event is now registered." },
         "locations":
           [ { "filename": "Repeater.es6",
-              "lineno": 452 } ],
+              "lineno": 483 } ],
         "docs":
           { "summary": "Sets the function that runs when a repeated item is removed.",
             "description":

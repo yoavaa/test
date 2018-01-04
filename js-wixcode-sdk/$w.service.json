@@ -297,7 +297,7 @@
           { "type": "void" },
         "locations":
           [ { "filename": "Repeater.es6",
-              "lineno": 488 } ],
+              "lineno": 519 } ],
         "docs":
           { "description":
               [ "Runs for items in a repeater." ],
@@ -432,7 +432,7 @@
           { "type": "void" },
         "locations":
           [ { "filename": "Repeater.es6",
-              "lineno": 372 } ],
+              "lineno": 403 } ],
         "docs":
           { "description":
               [ "Handles repeater item ready events." ],
@@ -455,7 +455,7 @@
           { "type": "void" },
         "locations":
           [ { "filename": "Repeater.es6",
-              "lineno": 446 } ],
+              "lineno": 477 } ],
         "docs":
           { "description":
               [ "Handles repeater item removed events." ],

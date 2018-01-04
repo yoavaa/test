@@ -26,7 +26,7 @@
         "type": "string",
         "locations":
           [ { "filename": "DropDown.es6",
-              "lineno": 228 },
+              "lineno": 221 },
             { "filename": "FormElement.es6",
               "lineno": 28 } ],
         "docs":
@@ -58,11 +58,7 @@
           [ { "name": "handler",
               "type": "$w.EventHandler",
               "doc": "The name of the function or\n the function expression to run when the element's value changes.",
-              "srcDoc": "The name of the function or\n the function expression to run when the element's value changes." },
-            { "name": "x",
-              "type": "string",
-              "doc": "ba bla bla\n the function expression to run when the element's value changes.",
-              "srcDoc": "ba bla bla\n the function expression to run when the element's value changes." } ],
+              "srcDoc": "The name of the function or\n the function expression to run when the element's value changes." } ],
         "ret":
           { "type": "$w.Element",
             "doc": "The element on which the event is now registered.",

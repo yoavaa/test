@@ -5,7 +5,8 @@
       "$w.HiddenCollapsedMixin",
       "$w.ClickableMixin" ],
   "labels":
-    [ "new" ],
+    [ "new",
+      "changed" ],
   "location":
     { "filename": "Table.es6",
       "lineno": 111 },
@@ -844,7 +845,8 @@
             "links": [],
             "examples": [] } },
       { "name": "onRowSelect",
-        "labels": [],
+        "labels":
+          [ "changed" ],
         "nameParams": [],
         "params":
           [ { "name": "eventHandler",
@@ -904,7 +906,7 @@
         "srcDocs":
           { "summary": "Adds an event handler that runs when a table row is selected.",
             "description":
-              [ "A table receives a [`TableRowEvent`](#$w.TableRowEvent.html) when the",
+              [ "A table receives a [`TableRowEvent`]($w.TableRowEvent.html) when the",
                 " table is set [set](https://support.wix.com/en/article/table-settings) in",
                 " the Editor to select rows when clicked.",
                 "![Clicking Selects Rows](images/table_settings_click_rows.png \"Clicking Selects Rows\")" ],
