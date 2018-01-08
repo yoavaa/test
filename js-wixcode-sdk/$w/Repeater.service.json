@@ -4,7 +4,8 @@
     [ "$w.Element",
       "$w.HiddenCollapsedMixin" ],
   "labels":
-    [ "new" ],
+    [ "new",
+      "changed" ],
   "location":
     { "filename": "Repeater.es6",
       "lineno": 106 },
@@ -589,10 +590,18 @@
                       "  $w(\"#repeatedText\").text = itemData.description;",
                       "} );" ] } ] } },
       { "name": "forItems",
-        "labels": [],
+        "labels":
+          [ "changed" ],
         "nameParams": [],
         "params":
-          [ { "name": "callback",
+          [ { "name": "itemIds",
+              "type":
+                { "name": "Array",
+                  "typeParams":
+                    [ "string" ] },
+              "doc": "The name of the function or the function expression to run for each repeated item.",
+              "srcDoc": "The IDs of the items on which to run the callback function." },
+            { "name": "callback",
               "type": "$w.ForItemCallback",
               "doc": "The name of the function or the function expression to run for each repeated item.",
               "srcDoc": "The name of the function or the function expression to run for each repeated item." } ],
